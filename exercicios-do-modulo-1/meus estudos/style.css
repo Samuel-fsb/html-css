@@ -1,0 +1,14 @@
+body{
+    background: rgba(2, 201, 223, 0.564);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+p{
+    color: beige;
+}
+mark{
+    color: beige;
+}
+

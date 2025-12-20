@@ -1,0 +1,21 @@
+body {
+    background-color: rgba(24, 184, 184, 0.833);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    color: blue;
+}
+
+mark{
+    color: blueviolet;
+}
