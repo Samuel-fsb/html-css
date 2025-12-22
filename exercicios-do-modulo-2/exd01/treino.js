@@ -1,18 +1,15 @@
-let numeros = [3, 7, 2, 9, 4, 6, 1]
-let soma = 0
+const getSmallestWord = (str) => {
+    const strArr = str.trim().split("")
 
-for (let i = 0; i < numeros.length ; i++){
-    soma = soma + numeros[i]
+    let smallestword = strArr [0]
+
+    for(let i = 1; i < strArr.length ;i++){
+        if (strArr[i].length < smallestword.length){
+            smallestword = strArr[i]
+        }
+    }
+
+    return smallestword
 }
 
-let t = soma / 2
-if (t < numeros.length){
-    console.log(t)
-}
-
-let m = (numeros.length + numeros.length ) / 2 
-let acumular = [0] 
-if (numeros[0] < m ){
-    acumular = numeros[0]
-}
-console.log(acumular)
+console.log(getSmallestWord("1223 5678 8778"))
