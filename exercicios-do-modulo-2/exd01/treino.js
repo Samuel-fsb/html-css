@@ -1,5 +1,7 @@
-const getSmallestWord = (str) => {
-    const strArr = str.trim().split("")
+
+/*const getSmallestWord = (str) => {
+
+    const strArr = str.trim().split(" ")
 
     let smallestword = strArr [0]
 
@@ -12,4 +14,16 @@ const getSmallestWord = (str) => {
     return smallestword
 }
 
-console.log(getSmallestWord("1223 5678 8778"))
+console.log(getSmallestWord("teste o"))
+*/
+
+
+
+
+
+
+
+
+
+
+
