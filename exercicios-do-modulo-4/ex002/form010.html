@@ -23,11 +23,19 @@
             <input type="reset" value="Limpar">
         </p>
 
+    </form>
         <script>
             function calcIdade(){
-                
+                let atual = new Date().getFullYear()
+                let ano = document.getElementById('iano')
+                let idade = document.getElementById('iidade')
+
+                if(ano.value.length == 0){
+                    idade.innerHTML = 0
+                } else {
+                    idade.innerHTML = atual - Number(ano.value)
+                }
             }
         </script>
-    </form>
 </body>
 </html>
