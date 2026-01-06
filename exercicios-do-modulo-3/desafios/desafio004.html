@@ -47,12 +47,12 @@
     <table>
         <caption>Tabela de Notas</caption>
         <thead>
-            <th>Área</th>
-            <th>Disciplinas</th>
-            <th>Notas
-            <th>Nota 1</th> 
-            <th>Nota 2</th>
-            <th rowspan="3">Média</th>
+            <th scope="col">Área</th>
+            <th scope="col">Disciplinas</th>
+            <th scope="col">Notas
+            <th scope="col">Nota 1</th> 
+            <th scope="col">Nota 2</th>
+            <th rowspan="3" scope="col">Média</th>
         </thead>
         <tbody>
             <tr>
@@ -85,7 +85,7 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <th colspan="5" class="central">Média de Exatas</th>
+                <th colspan="5" class="central" scope="row">Média de Exatas</th>
                 <td class="cinza">0.0</td>
             </tr>
             <tr>
@@ -105,7 +105,7 @@
             </tr>
         </tbody>
         <tfoot>
-            <th colspan="5" class="central">média de Humanas</th>
+            <th colspan="5" class="central" scope="row">média de Humanas</th>
             <td class="cinza">0.0</td>
         </tfoot>
 
