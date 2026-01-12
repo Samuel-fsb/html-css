@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner{
+            background-color: aqua;
+
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+        }
+        
+        div.item{
+            border: 1px solid black;
+            background-color: rgb(55, 255, 0);
+            text-align: center;
+
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item">Exemplo de A</div>
+        <div class="item">Exemplo de B</div>
+        <div class="item">Exemplo de C</div>
+        <div class="item">Exemplo de D</div>
+        <div class="item">Exemplo de E</div>
+        <div class="item">Exemplo de F</div>
+        <div class="item">Exemplo de G</div>
+    </div>
+</body>
+</html>
