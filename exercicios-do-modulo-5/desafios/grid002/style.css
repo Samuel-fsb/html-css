@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-rows: 80px 40px 1fr 40px;
+    grid-template-columns: 1fr 150px;
+    gap: 5px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.caixa{
+    background-color: beige;
+    border: 1px solid black;
+}
+
+#topo{
+
+    text-align: center;
+
+    grid-area: 1 / 1 / 2 / -1;
+}
+
+#menu{
+    text-align: center;
+    grid-area: 2 / 1 / 3 / -1;
+}
+
+#principal{
+
+    grid-area: 3 / 1 / -2 / 2;
+}
+
+#segundario{
+
+    text-align: center;
+
+    grid-area: 3 / -2 / -2 / -1;
+}
+
+#rodape{
+
+    text-align: center;
+    grid-area: 4 / 1 / 5 / -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.itens1{
+    background-color: chartreuse;
+    grid-area: 1 / 1 / 2 / 3;
+    text-align: center
+}
+
+.itens2{
+    background-color: cadetblue;
+    text-align: center;
+    grid-area: 2 / 1 / 3 / 3;
+}
+
+.itens3{
+    background-color: aquamarine;
+    grid-area: 3 / 1 / 4 / 3;
+}
+
+.itens4{
+    background-color: blueviolet;
+    text-align: center;
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.itens5{
+    text-align: center;
+    background-color: chocolate;
+    grid-area: 4 / 1 / 5 / -1;
+}
+*/
+
