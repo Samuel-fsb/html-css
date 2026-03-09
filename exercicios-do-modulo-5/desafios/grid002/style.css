@@ -21,9 +21,7 @@
 }
 
 #topo{
-
     text-align: center;
-
     grid-area: 1 / 1 / 2 / -1;
 }
 
@@ -33,14 +31,11 @@
 }
 
 #principal{
-
     grid-area: 3 / 1 / -2 / 2;
 }
 
 #segundario{
-
     text-align: center;
-
     grid-area: 3 / -2 / -2 / -1;
 }
 
